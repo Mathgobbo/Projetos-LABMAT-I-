@@ -1,0 +1,96 @@
+@font-face{
+    font-family: lobster;
+    src: url('D:\Programação I\LABMATII\BLOG\fontes\Lobster-Regular.ttf');
+}
+
+h1{
+    font-family: lobster;
+    font-size: 5vw;
+    border-radius: 10px;
+    padding: 3px;
+    width: 25vw;
+    margin: auto;
+    background: white;
+    text-align: center;
+    
+      
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    background-image: url("img magic/wallpaper1.jpg");
+    background-size: cover;
+    
+    
+}
+
+.menu{
+    display: flex;
+    background: green;
+    height: 7.5vh;
+    margin-top: 5vh;
+    width: 70vw;   
+    
+}
+.menu a{
+    padding: 20px;
+    text-decoration: none;
+    transition: width  1s;
+    width: 20vw; 
+    text-align: center; 
+    font-family: sans-serif;
+    font-size: 3vh;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+/*transição maneira dos botoes*/
+.menu a:hover{
+    background: white;
+    width: 25vw;
+    color: black;
+}
+
+/*gambiarra da borda dos botoes*/
+#a_borda{
+    border-right: 2px solid black;
+}
+
+#SECAO{
+    background-image: linear-gradient(to right, transparent, gray, transparent);
+    display: inline-block;
+}
+
+#GALERIA{
+    border: 2px solid black;
+    width: 50vw;
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;  
+    margin: auto;
+    
+    
+}
+
+#GALERIA img:hover{
+    
+    transform: scale(2.2) rotate(360deg)
+
+    
+}
+.CARTA{
+    width: 135px;
+    height: 200px;
+    margin: 20px;
+    transition: 0.5s;
+}
+
